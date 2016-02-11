@@ -1,0 +1,12 @@
+article {
+	border: 1px solid black;
+	box-shadow: 2px 2px 5px darkgray;
+	float: left;
+	width: 30%;
+	margin: 10px;
+}
+
+img {
+	width: 160px;
+	height: 160px;
+}
