@@ -19,17 +19,17 @@ var profiles = [
 
 	// matt's 2 profiles
 	three = {
-		image: "http://www.google.com/a.jpg",
+		image: "img/joe.jpg",
 		name: "Joe Shepherd",
-		age: "100",
+		age: "90",
 		location:"Little Rock, Arkansas",
 		aboutMe: "riapeunrop paiuenp apiuef caenop"
 	},
 
 	four = {
-		image: "http://www.google.com/a.jpg",
+		image: "img/matt.jpg",
 		name: "Matt Bruton",
-		age: "96",
+		age: "106",
 		location:"Nashville, TN",
 		aboutMe: "live laugh love xoxo gossip girl"
 	},
