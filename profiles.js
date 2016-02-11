@@ -2,7 +2,7 @@ var profiles = [
 
 // abbie's 2 profiles
 	one = {
-		image: "http://www.honesthealthnews.org/wp-content/uploads/2015/06/g_exercise-160x160.jpg",
+		image: "img/edna.jpg",
 		name: "Edna Herman",
 		age: "82",
 		location:"Provo, UT",
@@ -10,7 +10,7 @@ var profiles = [
 	},
 
 	two = {
-		image: "http://womanonline.co.za/wp-content/uploads/2012/02/old-people-160x160.jpg",
+		image: "img/josie.jpg",
 		name: "Josie Jones",
 		age: "93",
 		location:"San Francisco, CA",
@@ -20,34 +20,34 @@ var profiles = [
 	// matt's 2 profiles
 	three = {
 		image: "http://www.google.com/a.jpg",
-		name: "a",
-		age: "a",
-		location:"a",
-		aboutMe: "a"
+		name: "Joe Shepherd",
+		age: "100",
+		location:"Little Rock, Arkansas",
+		aboutMe: "riapeunrop paiuenp apiuef caenop"
 	},
 
 	four = {
 		image: "http://www.google.com/a.jpg",
-		name: "a",
-		age: "a",
-		location:"a",
-		aboutMe: "a"
+		name: "Matt Bruton",
+		age: "96",
+		location:"Nashville, TN",
+		aboutMe: "live laugh love xoxo gossip girl"
 	},
 
 	// sandy's 2 profiles
 	five = {
 		image: "http://www.google.com/a.jpg",
-		name: "a",
-		age: "a",
-		location:"a",
+		name: "Bernie Adams",
+		age: "81",
+		location:"Palm Springs, FL",
 		aboutMe: "a"
 	},
 
 	six = {
 		image: "http://www.google.com/a.jpg",
-		name: "a",
-		age: "a",
-		location:"a",
+		name: "Ralph Waldo",
+		age: "80",
+		location:"Malibu, CA",
 		aboutMe: "a"
 	}
 ];
