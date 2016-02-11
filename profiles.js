@@ -23,15 +23,15 @@ var profiles = [
 		name: "Joe Shepherd",
 		age: "90",
 		location:"Little Rock, Arkansas",
-		aboutMe: "riapeunrop paiuenp apiuef caenop"
+		aboutMe: "My grandchildren only speak to me because they think I am a wizard."
 	},
 
 	four = {
 		image: "img/matt.jpg",
-		name: "Matt Bruton",
+		name: "Gladys Brownstain",
 		age: "106",
 		location:"Nashville, TN",
-		aboutMe: "live laugh love xoxo gossip girl"
+		aboutMe: "I'm wet and ready to meet... with a doctor about my incontinence problems."
 	},
 
 	// sandy's 2 profiles
