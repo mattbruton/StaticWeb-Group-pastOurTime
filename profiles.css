@@ -4,6 +4,8 @@ body {
 	font-family: "Helvetica", "Arial", sans-serif;
 }
 
+/* NAV */
+
 li {
  list-style-type: none;
  float: right;
@@ -18,6 +20,25 @@ li {
 
 .clearfix {
  overflow: auto;
+}
+
+/* BODY */
+
+div {
+	clear: both;	
+}
+
+h3 {
+	font-style: italic;
+}
+
+p {
+	color: #00F0FF;
+}
+
+footer {
+	text-align: center;
+	font-size: .7em;
 }
 
 .profile {
@@ -41,7 +62,7 @@ li {
 	width: 60%;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 5%;
+	margin-bottom: 2%;
 	text-align: center;
 	padding: 20px;
 	clear: both;
@@ -53,14 +74,3 @@ li {
 	text-align: center;
 }
 
-div {
-	clear: both;	
-}
-
-h3 {
-	font-style: italic;
-}
-
-p {
-	color: #00F0FF;
-}
