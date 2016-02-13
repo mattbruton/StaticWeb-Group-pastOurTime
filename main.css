@@ -1,18 +1,37 @@
-ul {
-	list-style-type: none;
-}
+
 body {
 	font-family: "Helvetica", Arial, sans-serif;
 	background-color: black;
 	color: #fff;
 }
+
+/* NAV */
+
+li {
+ list-style-type: none;
+ float: right;
+ margin-right: 5%;
+ margin-top: 1%;
+}
+
+.logo  {
+ float:left;
+ margin-top: -0.5%;
+}
+
+.clearfix {
+ overflow: auto;
+}
+
 .main {
 	border: 1px solid white;
 	box-shadow: 2px 2px 5px darkgray;
 	width: 70%;
 	padding: 10px;
 	margin: auto;
+  clear: both;
 }
+
 .joinWords {
 	display: ;
 }
@@ -53,4 +72,9 @@ body {
 	text-align: center;
 	margin: 20px auto;
 	box-shadow: 2px 2px 5px darkgray;
+}
+
+footer {
+  text-align: center;
+  font-size: .7em;
 }
