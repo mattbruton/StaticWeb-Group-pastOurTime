@@ -1,6 +1,23 @@
 body {
 	background-color: black;
 	color: #fff;
+	font-family: "Helvetica", "Arial", sans-serif;
+}
+
+li {
+ list-style-type: none;
+ float: right;
+ margin-right: 5%;
+ margin-top: 1%;
+}
+
+.logo  {
+ float:left;
+ margin-top: -0.5%;
+}
+
+.clearfix {
+ overflow: auto;
 }
 
 .profile {
@@ -14,4 +31,36 @@ body {
 .profile > img {
 	width: 160px;
 	height: 160px;
+	text-align: center;
+	margin-top: 5px;
+}
+
+.main {
+	border: 1px solid white;
+	box-shadow: 2px 2px 5px darkgray;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5%;
+	text-align: center;
+	padding: 20px;
+	clear: both;
+	overflow: auto;
+}
+
+.img > img {
+	width: 400px;
+	text-align: center;
+}
+
+div {
+	clear: both;	
+}
+
+h3 {
+	font-style: italic;
+}
+
+p {
+	color: #00F0FF;
 }
