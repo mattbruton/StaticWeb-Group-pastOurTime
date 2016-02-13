@@ -6,7 +6,7 @@ var profiles = [
 		name: "Edna Herman",
 		age: "82",
 		location:"Provo, UT",
-		aboutMe: "LOVE fitness - work harder live longer."
+		aboutMe: "LOVE fitness - work harder live longer. Come get physical with me."
 	},
 
 	two = {
@@ -14,7 +14,7 @@ var profiles = [
 		name: "Josie Jones",
 		age: "93",
 		location:"San Francisco, CA",
-		aboutMe: "Flying free at 93"
+		aboutMe: "Flying free at 93. Can't wait to meet a wild mate. xoxoxoxoxoxoxoxo ;)"
 	},
 
 	// matt's 2 profiles
@@ -57,7 +57,7 @@ var profileElements = document.getElementById("javascript");
 // for loop
 for (var i = 0; i < profiles.length; i++) {
 	profileElements.innerHTML += "<article class= " + '"' + "profile" + '"' + ">" + "<img src=" + '"' + profiles[i].image + 
-	'">' + "<h2>" + profiles[i].name + "</h2>" + "<h3>" + profiles[i].age + "</h3>" +
-	"<h3>" + profiles[i].location + "</h3>" + "<p>" + profiles[i].aboutMe + "</p>" + 
+	'">' + "<h3>" + profiles[i].name + "</h3>" + "<h4>" + profiles[i].age + "</h4>" +
+	"<h4>" + profiles[i].location + "</h4>" + "<p>" + profiles[i].aboutMe + "</p>" + 
 	"</article>";
 };
