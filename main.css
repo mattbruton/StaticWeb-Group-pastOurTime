@@ -26,10 +26,14 @@ li {
 .main {
 	border: 1px solid white;
 	box-shadow: 2px 2px 5px darkgray;
-	width: 70%;
 	padding: 10px;
 	margin: auto;
   clear: both;
+  text-align: center;
+}
+
+.main, .bottom {
+	width: 60%;
 }
 
 .joinWords {
@@ -45,33 +49,44 @@ li {
 	margin-right: 30%;
 }
 .street {
-	float: right;
+/*	float: right;*/
+	display: inline-block;
 	padding: 2em;
 	width: 200px;
+	margin: auto;
 }
 .fours {
-	float: left;
+/*	float: left;*/
+	display: inline-block;
 	padding: 2em;
 	width: 200px;
+	margin: auto;
 }
 .walkers {
-	float: right;
+/*	float: right;*/
+	display: inline-block;
 	padding: 2em;
 	width: 200px;
 }
 .oldStreet {
-	float: left;
+	/*float: left;*/
+	display: inline-block;
 	padding: 2em;
 	width: 200px;
+}
+.main-text {
+	padding-left: 10%;
+	padding-right: 10%;
 }
 .bottom {
 	padding-top: 1em;
 	padding-bottom: 1em;
-	width: 70%;
 	border: 1px solid #00f0ff;
 	text-align: center;
 	margin: 20px auto;
 	box-shadow: 2px 2px 5px darkgray;
+	font-size: .9em;
+	font-style: italic;
 }
 
 footer {
