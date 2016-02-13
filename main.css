@@ -1,0 +1,56 @@
+ul {
+	list-style-type: none;
+}
+body {
+	font-family: "Helvetica", Arial, sans-serif;
+	background-color: black;
+	color: #fff;
+}
+.main {
+	border: 1px solid white;
+	box-shadow: 2px 2px 5px darkgray;
+	width: 70%;
+	padding: 10px;
+	margin: auto;
+}
+.joinWords {
+	display: ;
+}
+.headline {
+	text-align: center;
+	font-size: xx-large;
+}
+.imgCtr {
+	text-align: center;
+	margin-left: 30%;
+	margin-right: 30%;
+}
+.street {
+	float: right;
+	padding: 2em;
+	width: 200px;
+}
+.fours {
+	float: left;
+	padding: 2em;
+	width: 200px;
+}
+.walkers {
+	float: right;
+	padding: 2em;
+	width: 200px;
+}
+.oldStreet {
+	float: left;
+	padding: 2em;
+	width: 200px;
+}
+.bottom {
+	padding-top: 1em;
+	padding-bottom: 1em;
+	width: 70%;
+	border: 1px solid #00f0ff;
+	text-align: center;
+	margin: 20px auto;
+	box-shadow: 2px 2px 5px darkgray;
+}
