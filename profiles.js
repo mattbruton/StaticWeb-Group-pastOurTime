@@ -19,7 +19,7 @@ var profiles = [
 
 	// matt's 2 profiles
 	three = {
-		image: "img/joe.jpg",
+		image: "img/img3.jpg",
 		name: "Joe Shepherd",
 		age: "90",
 		location:"Little Rock, Arkansas",
@@ -27,7 +27,7 @@ var profiles = [
 	},
 
 	four = {
-		image: "img/matt.jpg",
+		image: "img/img4.jpg",
 		name: "Gladys Brownstain",
 		age: "106",
 		location:"Nashville, TN",
@@ -36,19 +36,19 @@ var profiles = [
 
 	// sandy's 2 profiles
 	five = {
-		image: "http://www.google.com/a.jpg",
-		name: "Bernie Adams",
+		image: "img/profiles/aalady.jpg",
+		name: "Bernice Adams",
 		age: "81",
 		location:"Palm Springs, FL",
-		aboutMe: "a"
+		aboutMe: "I like to walk on the beach and spend time with my 'special' friends."
 	},
 
 	six = {
-		image: "http://www.google.com/a.jpg",
+		image: "img/profiles/beachman.jpg",
 		name: "Ralph Waldo",
 		age: "80",
 		location:"Malibu, CA",
-		aboutMe: "a"
+		aboutMe: "I like to drink pina coladas and also spend my free time at the beach (call me Bernice!!!)."
 	}
 ];
 
@@ -56,7 +56,7 @@ var profileElements = document.getElementById("javascript");
 
 // for loop
 for (var i = 0; i < profiles.length; i++) {
-	profileElements.innerHTML += "<article>" + "<img src=" + '"' + profiles[i].image + 
+	profileElements.innerHTML += "<article class= " + '"' + "profile" + '"' + ">" + "<img src=" + '"' + profiles[i].image + 
 	'">' + "<h2>" + profiles[i].name + "</h2>" + "<h3>" + profiles[i].age + "</h3>" +
 	"<h3>" + profiles[i].location + "</h3>" + "<p>" + profiles[i].aboutMe + "</p>" + 
 	"</article>";
