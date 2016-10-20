@@ -36,7 +36,7 @@ var profiles = [
 
 	// sandy's 2 profiles
 	five = {
-		image: "img/profiles/aalady.jpg",
+		image: "img/Profiles/aalady.jpg",
 		name: "Bernice Adams",
 		age: "81",
 		location:"Palm Springs, FL",
@@ -44,7 +44,7 @@ var profiles = [
 	},
 
 	six = {
-		image: "img/profiles/beachman.jpg",
+		image: "img/Profiles/beachman.jpg",
 		name: "Ralph Waldo",
 		age: "80",
 		location:"Malibu, CA",
